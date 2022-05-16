@@ -18,6 +18,7 @@ follow the example for diff and breakdown.
 - Click on *New repository secret*
 - Create a repo secret called `INFRACOST_API_KEY` with your API key.
 - Create a new file in .github/workflows/infracost.yml in your repo with the following content.
+  - change the `PATH` for the `working-directory`
 
 ```ymal
 # The GitHub Actions docs (https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on)

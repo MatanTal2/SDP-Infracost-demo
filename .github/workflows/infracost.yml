@@ -5,7 +5,7 @@ jobs:
   infracost:
     runs-on: ubuntu-latest # The following are JavaScript actions (not Docker)
     env:
-      working-directory: PATH/TO/TERRAFORM/CODE # Update this!
+      working-directory: /home/runner/work/SDP-Infracost-demo/SDP-Infracost-demo # Update this!
 
     name: Run Infracost
     steps:
