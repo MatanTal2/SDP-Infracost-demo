@@ -13,11 +13,12 @@ follow the example for diff and breakdown.
 ### Adding the `INFRACOST_API_KEY` to Github Action secret
 
 - Retrieve your Infracost API key by running `infracost configure get api_key`.
-    - if you didn't register yet please follow the *Get Started* instruction in the [Infracost/docs](https://www.infracost.io/docs/).
+  - if you didn't register yet please follow the *Get Started* instruction in the [Infracost/docs](https://www.infracost.io/docs/).
 - go to *stteinng -> Secrets -> actions*
 - Click on *New repository secret*
 - Create a repo secret called `INFRACOST_API_KEY` with your API key.
 - Create a new file in .github/workflows/infracost.yml in your repo with the following content.
+  - change the `PATH` for the `working-directory`
 
 ```ymal
 # The GitHub Actions docs (https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#on)
