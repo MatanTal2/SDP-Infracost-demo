@@ -1,4 +1,6 @@
-# SDP-Infracost-demo
+# This repo made for SDP - Sela Developer Practice conference. 
+
+## SDP-Infracost-demo
 
 ## install infracost
 
